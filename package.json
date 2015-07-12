@@ -1,0 +1,34 @@
+{
+  "name": "passport-facebook-code",
+  "version": "1.0.0",
+  "description": "Passport Facebook strategy implementing short-lived access token to client code conversion.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec --recursive bin/**/test/*.js client/**/test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/proc0/passport-facebook-code.git"
+  },
+  "keywords": [
+    "facebook",
+    "passport",
+    "access",
+    "token",
+    "node",
+    "npm"
+  ],
+  "author": "proc0",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/proc0/passport-facebook-code/issues"
+  },
+  "homepage": "https://github.com/proc0/passport-facebook-code#readme",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "passport-facebook": "^2.0.0",
+    "util": "^0.10.3"
+  }
+}
